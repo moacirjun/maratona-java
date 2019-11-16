@@ -8,7 +8,7 @@ public class GradeCalculator {
             return 0;
         }
 
-        int total = 0;
+        float total = 0;
         int countGrades = studentGrades.length;
 
         for(Grade grade : studentGrades) {

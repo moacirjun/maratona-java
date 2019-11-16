@@ -75,10 +75,6 @@ public class Estudante {
         }
 
         //divide a soma de notas pela quantidade de notas (média)
-        if (somaNotas/this.nota.length >= 6) {
-            return true;
-        }
-
-        return false;
+        return somaNotas / this.nota.length >= 6;
     }
 }
