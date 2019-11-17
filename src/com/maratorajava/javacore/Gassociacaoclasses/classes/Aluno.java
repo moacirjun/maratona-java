@@ -1,4 +1,4 @@
-package com.maratorajava.javacore.associacaoclasses.classes;
+package com.maratorajava.javacore.Gassociacaoclasses.classes;
 
 public class Aluno {
     private String nome;

@@ -1,9 +1,9 @@
-package com.maratorajava.javacore.associacaoclasses.test;
+package com.maratorajava.javacore.Gassociacaoclasses.test;
 
-import com.maratorajava.javacore.associacaoclasses.classes.Aluno;
-import com.maratorajava.javacore.associacaoclasses.classes.Local;
-import com.maratorajava.javacore.associacaoclasses.classes.Professor;
-import com.maratorajava.javacore.associacaoclasses.classes.Seminario;
+import com.maratorajava.javacore.Gassociacaoclasses.classes.Aluno;
+import com.maratorajava.javacore.Gassociacaoclasses.classes.Local;
+import com.maratorajava.javacore.Gassociacaoclasses.classes.Professor;
+import com.maratorajava.javacore.Gassociacaoclasses.classes.Seminario;
 
 public class AssociacaoTest {
     public static void main(String[] args) {

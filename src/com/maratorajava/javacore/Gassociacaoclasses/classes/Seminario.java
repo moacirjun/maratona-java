@@ -1,4 +1,4 @@
-package com.maratorajava.javacore.associacaoclasses.classes;
+package com.maratorajava.javacore.Gassociacaoclasses.classes;
 
 public class Seminario {
     private String titulo;
