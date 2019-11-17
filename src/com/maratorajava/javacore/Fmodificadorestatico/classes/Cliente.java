@@ -1,13 +1,16 @@
 package com.maratorajava.javacore.Fmodificadorestatico.classes;
 
 public class Cliente {
-    //1 - Bloco de inicialização estático é executado quando a JVM carrega a classe
-    //2 - Aloca um espaço na memória para o objeto que será criado
-    //3 - Cada atributo de classe é inicializado com seus valores padrões
-    //4 - Bloco de inicialização não estático é inicializado
-    //5 - O construtor é executado
-
+    /**
+     * Ordem de execução da JVM ao instanciar um objeto
+     * 1 - Bloco de inicialização estático é executado quando a JVM carrega a classe (só é executado uma vez)
+     * 2 - Aloca espaço na memória para o objeto
+     * 3 - Inicia os valores de cada atributo da classe (default ou explícito)
+     * 4 - Executa o bloco de iniciação (para cada instância de objeto)
+     * 5 - Executa o construtor
+     */
     private static int[] parcelas;
+
     static {
         System.out.println("Dentro do Bloco de inicialzação Estático");
         parcelas = new int[100];
