@@ -50,7 +50,14 @@ public class Produto implements Transportavel, Tributavel { //Uma classe pode im
         return custoTotal;
     }
 
+    /**
+     * Para sobrescrever um método o modificador de acesso deve ser sempre igualmente ou menos restritivo.
+     * Dessa forma sempre utilize o modificador de acesso public ao sobrescrever um método de uma interface
+     * que não definiu nenhum modificador de acesso em su escrita. Caso contrário haverá um erro de compilação pois
+     * o modificador "default" é menos restritivo que public
+     */
     @Override
+//  void calculaFrete() { erro de compilação
     public void calculaFrete() {
         frete = peso * 0.08;
         this.calculaCustoTotal();
